@@ -1,0 +1,16 @@
+# CogniTag v2 の実行に必要なパッケージ
+#
+# Python 3.11 以上が必要です（標準ライブラリの tomllib を使うため）。
+#
+# sudachidict_core はコード中で import されませんが必須です。
+# SudachiPy は解析エンジンだけで、辞書データを同梱していないためです。
+
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.0
+sudachipy>=0.6.8
+sudachidict_core
+
+# 辞書を自分で作り直す場合のみ必要です。
+# 公開済みの dictionary_v2.json を使うだけなら Ollama も本パッケージも要りません。
+ollama>=0.4

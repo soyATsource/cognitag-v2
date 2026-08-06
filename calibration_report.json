@@ -1,0 +1,907 @@
+{
+  "overall_accuracy": 0.95,
+  "n_valid": 60,
+  "n_failed": 0,
+  "accuracy_by_axis": {
+    "physical": {
+      "n": 15,
+      "correct": 13,
+      "rate": 0.8667
+    },
+    "psychological": {
+      "n": 15,
+      "correct": 15,
+      "rate": 1.0
+    },
+    "temporal": {
+      "n": 15,
+      "correct": 14,
+      "rate": 0.9333
+    },
+    "logical": {
+      "n": 15,
+      "correct": 15,
+      "rate": 1.0
+    }
+  },
+  "confusion_matrix": {
+    "physical": {
+      "physical": 13,
+      "psychological": 1,
+      "temporal": 1,
+      "logical": 0
+    },
+    "psychological": {
+      "physical": 0,
+      "psychological": 15,
+      "temporal": 0,
+      "logical": 0
+    },
+    "temporal": {
+      "physical": 0,
+      "psychological": 1,
+      "temporal": 14,
+      "logical": 0
+    },
+    "logical": {
+      "physical": 0,
+      "psychological": 0,
+      "temporal": 0,
+      "logical": 15
+    }
+  },
+  "axis_means_all_words": {
+    "physical": 1.2889,
+    "psychological": 2.2722,
+    "temporal": 2.3667,
+    "logical": 1.8944
+  },
+  "on_axis_strength": {
+    "physical": 3.2,
+    "psychological": 4.0,
+    "temporal": 3.8667,
+    "logical": 3.7333
+  },
+  "details": [
+    {
+      "word": "包丁",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 4.0,
+        "psychological": 0.0,
+        "temporal": 1.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "石",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "壁",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 2.0,
+        "temporal": 1.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "殴る",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 4.0,
+        "psychological": 3.0,
+        "temporal": 0.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "重い",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 2.0,
+        "temporal": 1.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "液体",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 4.0,
+        "psychological": 0.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "温度",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 2.0,
+        "temporal": 3.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "移動する",
+      "expected": "physical",
+      "predicted": "temporal",
+      "correct": false,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 4.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "場所",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 2.0,
+        "temporal": 3.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "破壊する",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 2.0,
+        "temporal": 1.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "ざらざら",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 3.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "身震い",
+      "expected": "physical",
+      "predicted": "psychological",
+      "correct": false,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 4.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "骨",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "エンジン",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 2.6667
+      },
+      "variance": 0.2222,
+      "failed": false
+    },
+    {
+      "word": "標識",
+      "expected": "physical",
+      "predicted": "physical",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "嬉しい",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "疑念",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 0.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "不安",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 3.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "嫉妬",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 3.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "期待",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 3.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "諦め",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 3.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "恥ずかしい",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 2.0,
+        "logical": 0.3333
+      },
+      "variance": 0.2222,
+      "failed": false
+    },
+    {
+      "word": "共感",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.3333,
+        "psychological": 4.0,
+        "temporal": 1.6667,
+        "logical": 2.0
+      },
+      "variance": 0.8889,
+      "failed": false
+    },
+    {
+      "word": "信じる",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 1.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "ためらう",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 1.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "動機",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 4.0,
+        "temporal": 0.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "気質",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "好意",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 2.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "嫌悪",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 2.0,
+        "psychological": 4.0,
+        "temporal": 1.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "安心",
+      "expected": "psychological",
+      "predicted": "psychological",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 2.6667,
+        "logical": 1.6667
+      },
+      "variance": 0.2222,
+      "failed": false
+    },
+    {
+      "word": "徐々に",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 0.0,
+        "temporal": 4.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "突然",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 3.0,
+        "temporal": 4.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "しばしば",
+      "expected": "temporal",
+      "predicted": "psychological",
+      "correct": false,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 3.0,
+        "temporal": 2.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "最初",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "最後",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "途中",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "経過",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 4.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "持続する",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "一瞬",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 3.0,
+        "temporal": 4.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "周期",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "劣化",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 3.0,
+        "psychological": 1.0,
+        "temporal": 4.0,
+        "logical": 2.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "成長",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 2.0,
+        "psychological": 3.0,
+        "temporal": 4.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "以前",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 2.0,
+        "temporal": 4.0,
+        "logical": 1.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "その後",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 3.0,
+        "temporal": 4.0,
+        "logical": 0.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "同時に",
+      "expected": "temporal",
+      "predicted": "temporal",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 4.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "したがって",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "ゆえに",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 0.0,
+        "temporal": 1.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "にもかかわらず",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 3.0,
+        "temporal": 2.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "すなわち",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "ただし",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.3333,
+        "temporal": 2.6667,
+        "logical": 3.0
+      },
+      "variance": 0.2222,
+      "failed": false
+    },
+    {
+      "word": "もし",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 3.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "矛盾",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 3.0,
+        "temporal": 0.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "根拠",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 2.0,
+        "psychological": 1.0,
+        "temporal": 3.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "仮定",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "帰結",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 3.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "証明する",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 0.0,
+        "logical": 3.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "否定する",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 3.0,
+        "temporal": 1.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "条件",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "必然",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 3.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    },
+    {
+      "word": "反証",
+      "expected": "logical",
+      "predicted": "logical",
+      "correct": true,
+      "levels": {
+        "physical": 1.0,
+        "psychological": 2.0,
+        "temporal": 3.0,
+        "logical": 4.0
+      },
+      "variance": 0.0,
+      "failed": false
+    }
+  ]
+}

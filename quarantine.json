@@ -1,0 +1,337 @@
+{
+  "機能": {
+    "pos": "名詞",
+    "frequency": 11,
+    "mean_levels": {
+      "physical": 3.0,
+      "psychological": 2.0,
+      "temporal": 1.0,
+      "logical": 1.6667
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.8889
+    },
+    "max_variance": 0.8889,
+    "trials": [
+      {
+        "physical": 3,
+        "psychological": 2,
+        "temporal": 1,
+        "logical": 3
+      },
+      {
+        "physical": 3,
+        "psychological": 2,
+        "temporal": 1,
+        "logical": 1
+      },
+      {
+        "physical": 3,
+        "psychological": 2,
+        "temporal": 1,
+        "logical": 1
+      }
+    ]
+  },
+  "素材": {
+    "pos": "名詞",
+    "frequency": 8,
+    "mean_levels": {
+      "physical": 3.0,
+      "psychological": 1.0,
+      "temporal": 2.0,
+      "logical": 1.3333
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.8889
+    },
+    "max_variance": 0.8889,
+    "trials": [
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 2,
+        "logical": 0
+      },
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 2,
+        "logical": 2
+      },
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 2,
+        "logical": 2
+      }
+    ]
+  },
+  "プレート": {
+    "pos": "名詞",
+    "frequency": 4,
+    "mean_levels": {
+      "physical": 3.0,
+      "psychological": 1.0,
+      "temporal": 2.3333,
+      "logical": 0.6667
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.2222,
+      "logical": 0.8889
+    },
+    "max_variance": 0.8889,
+    "trials": [
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 3,
+        "logical": 2
+      },
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 2,
+        "logical": 0
+      },
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 2,
+        "logical": 0
+      }
+    ]
+  },
+  "ステンレス": {
+    "pos": "名詞",
+    "frequency": 3,
+    "mean_levels": {
+      "physical": 4.0,
+      "psychological": 0.0,
+      "temporal": 1.0,
+      "logical": 1.3333
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.8889
+    },
+    "max_variance": 0.8889,
+    "trials": [
+      {
+        "physical": 4,
+        "psychological": 0,
+        "temporal": 1,
+        "logical": 0
+      },
+      {
+        "physical": 4,
+        "psychological": 0,
+        "temporal": 1,
+        "logical": 2
+      },
+      {
+        "physical": 4,
+        "psychological": 0,
+        "temporal": 1,
+        "logical": 2
+      }
+    ]
+  },
+  "ゆっくり": {
+    "pos": "副詞",
+    "frequency": 2,
+    "mean_levels": {
+      "physical": 1.0,
+      "psychological": 3.0,
+      "temporal": 4.0,
+      "logical": 0.6667
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.8889
+    },
+    "max_variance": 0.8889,
+    "trials": [
+      {
+        "physical": 1,
+        "psychological": 3,
+        "temporal": 4,
+        "logical": 2
+      },
+      {
+        "physical": 1,
+        "psychological": 3,
+        "temporal": 4,
+        "logical": 0
+      },
+      {
+        "physical": 1,
+        "psychological": 3,
+        "temporal": 4,
+        "logical": 0
+      }
+    ]
+  },
+  "証拠": {
+    "pos": "名詞",
+    "frequency": 34,
+    "mean_levels": {
+      "physical": 1.0,
+      "psychological": 2.0,
+      "temporal": 1.0,
+      "logical": 3.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 1,
+        "psychological": 2,
+        "temporal": 1,
+        "logical": 3
+      }
+    ]
+  },
+  "体験": {
+    "pos": "名詞",
+    "frequency": 33,
+    "mean_levels": {
+      "physical": 2.0,
+      "psychological": 4.0,
+      "temporal": 3.0,
+      "logical": 1.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 2,
+        "psychological": 4,
+        "temporal": 3,
+        "logical": 1
+      }
+    ]
+  },
+  "神話": {
+    "pos": "名詞",
+    "frequency": 19,
+    "mean_levels": {
+      "physical": 1.0,
+      "psychological": 3.0,
+      "temporal": 4.0,
+      "logical": 2.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 1,
+        "psychological": 3,
+        "temporal": 4,
+        "logical": 2
+      }
+    ]
+  },
+  "圧倒的": {
+    "pos": "名詞",
+    "frequency": 7,
+    "mean_levels": {
+      "physical": 1.0,
+      "psychological": 3.0,
+      "temporal": 2.0,
+      "logical": 4.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 1,
+        "psychological": 3,
+        "temporal": 2,
+        "logical": 4
+      }
+    ]
+  },
+  "圧縮": {
+    "pos": "名詞",
+    "frequency": 7,
+    "mean_levels": {
+      "physical": 3.0,
+      "psychological": 1.0,
+      "temporal": 3.0,
+      "logical": 2.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 3,
+        "psychological": 1,
+        "temporal": 3,
+        "logical": 2
+      }
+    ]
+  },
+  "地質": {
+    "pos": "名詞",
+    "frequency": 6,
+    "mean_levels": {
+      "physical": 3.0,
+      "psychological": 0.0,
+      "temporal": 3.0,
+      "logical": 2.0
+    },
+    "variances": {
+      "physical": 0.0,
+      "psychological": 0.0,
+      "temporal": 0.0,
+      "logical": 0.0
+    },
+    "max_variance": 0.0,
+    "trials": [
+      {
+        "physical": 3,
+        "psychological": 0,
+        "temporal": 3,
+        "logical": 2
+      }
+    ]
+  }
+}

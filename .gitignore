@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 仮想環境
+.venv/
+venv/
+env/
+
+# テスト・型チェックのキャッシュ
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# エディタ・IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ローカル環境固有の設定（他人の環境では意味を持たない）
+.claude/
+.env
+*.local.json
+
+
+# ===========================================================
+# CogniTag 固有
+# ===========================================================
+
+# 中間生成物。corpus/ から `python run_pipeline.py extract` で
+# 数十秒で再生成できる。3MB あり、辞書を使うだけの人には不要。
+candidates.json
+
+# 辞書構築の途中経過。公開するのは dictionary_v2.json だけにする。
+dictionary_v3*.json
+quarantine_v3*.json
+dictionary_*.backup.json
+dictionary_*_pilot.json
+
+# 較正・検査の実行ログ
+logs/
+*.log
+
+# 記事執筆用の内部資料。成果物ではなく制作の裏側なので公開しない。
+RESEARCH_ARTICLE_BRIEF.md
+
+# v3（valence 軸の追加）の作業用ツール。
+# v3 の辞書がまだ存在せず、README にも記載がないため、
+# 完成するまでは公開対象から外す。
+REANNOTATE_V3.md
+reannotate_v3.bat
+bench_annotation.py
+inspect_contrast.py
+vocab_yield.py
+
+
+# ===========================================================
+# 追跡対象に「含める」もの（念のため明記）
+#
+#   dictionary_v2.json      6841語の辞書本体。記事からリンクする一次データ
+#   quarantine.json         隔離語11件の生データ。同上
+#   calibration_report.json 較正テストの結果。同上
+#   corpus/                 辞書の再現に必要（README で CC BY 4.0 と明記）
+#
+# いずれも合計 9MB 程度で、GitHub の上限には十分収まる。
+# ===========================================================

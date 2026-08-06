@@ -1,0 +1,4 @@
+# 開発・テスト用。実行だけなら requirements.txt で足ります。
+-r requirements.txt
+
+pytest>=8.0

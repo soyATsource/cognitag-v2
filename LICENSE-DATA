@@ -1,0 +1,37 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 soyATsource
+
+このライセンスが適用される対象:
+
+    dictionary_v2.json       4軸の重みを持つ 6,841 語の辞書
+    quarantine.json          隔離された語の生データ
+    calibration_report.json  較正テストの結果
+    corpus/                  LLM が生成した日本語コーパス
+
+リポジトリ内のソースコードには適用されません。コードは MIT License
+（LICENSE ファイル）に従います。
+
+あなたは以下を自由に行えます:
+
+    共有  — どのような媒体や形式でも複製・再配布できます
+    翻案  — 改変・変形・二次利用ができます。商用利用も可能です
+
+条件:
+
+    表示  — 適切なクレジットを表示し、ライセンスへのリンクを提供し、
+            変更があった場合はその旨を示してください。
+
+ライセンス全文:
+    https://creativecommons.org/licenses/by/4.0/legalcode.ja
+    https://creativecommons.org/licenses/by/4.0/deed.ja
+
+
+注意:
+
+corpus/ の文章は Ollama 上の gemma3:4b が生成したものであり、
+実在の文章ではありません。事実確認は行っていないため、
+内容の正確性は保証されません。語彙の収集を目的としたデータです。
+
+dictionary_v2.json の各語の数値も同モデルが付与したものです。
+人手による全数検証は行っていません。詳細は README を参照してください。
