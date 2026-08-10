@@ -51,16 +51,18 @@
     }
   },
   "axis_means_all_words": {
-    "physical": 1.2889,
-    "psychological": 2.2722,
-    "temporal": 2.3667,
-    "logical": 1.8944
+    "physical": 0.9833,
+    "psychological": 1.35,
+    "temporal": 1.2667,
+    "logical": 1.05,
+    "valence": 1.7667
   },
   "on_axis_strength": {
-    "physical": 3.2,
-    "psychological": 4.0,
+    "physical": 3.4667,
+    "psychological": 3.6667,
     "temporal": 3.8667,
-    "logical": 3.7333
+    "logical": 3.6667,
+    "valence": 0.0
   },
   "details": [
     {
@@ -71,8 +73,9 @@
       "levels": {
         "physical": 4.0,
         "psychological": 0.0,
-        "temporal": 1.0,
-        "logical": 2.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -83,10 +86,11 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 3.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "physical": 4.0,
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -98,9 +102,10 @@
       "correct": true,
       "levels": {
         "physical": 3.0,
-        "psychological": 2.0,
-        "temporal": 1.0,
-        "logical": 1.0
+        "psychological": 1.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -112,9 +117,10 @@
       "correct": true,
       "levels": {
         "physical": 4.0,
-        "psychological": 3.0,
+        "psychological": 2.0,
         "temporal": 0.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -126,9 +132,10 @@
       "correct": true,
       "levels": {
         "physical": 3.0,
-        "psychological": 2.0,
-        "temporal": 1.0,
-        "logical": 0.0
+        "psychological": 1.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -139,10 +146,11 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 4.0,
+        "physical": 3.0,
         "psychological": 0.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -153,10 +161,11 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 3.0,
-        "psychological": 2.0,
+        "physical": 4.0,
+        "psychological": 0.0,
         "temporal": 3.0,
-        "logical": 1.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -168,9 +177,10 @@
       "correct": false,
       "levels": {
         "physical": 3.0,
-        "psychological": 1.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -182,9 +192,10 @@
       "correct": true,
       "levels": {
         "physical": 3.0,
-        "psychological": 2.0,
-        "temporal": 3.0,
-        "logical": 1.0
+        "psychological": 1.0,
+        "temporal": 2.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -195,10 +206,11 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 3.0,
+        "physical": 4.0,
         "psychological": 2.0,
-        "temporal": 1.0,
-        "logical": 1.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -210,9 +222,10 @@
       "correct": true,
       "levels": {
         "physical": 3.0,
-        "psychological": 1.0,
-        "temporal": 3.0,
-        "logical": 0.0
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -225,8 +238,9 @@
       "levels": {
         "physical": 3.0,
         "psychological": 4.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -237,10 +251,11 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 3.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "physical": 4.0,
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -251,12 +266,13 @@
       "predicted": "physical",
       "correct": true,
       "levels": {
-        "physical": 3.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 2.6667
+        "physical": 4.0,
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
-      "variance": 0.2222,
+      "variance": 0.0,
       "failed": false
     },
     {
@@ -266,9 +282,10 @@
       "correct": true,
       "levels": {
         "physical": 3.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 2.0
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -279,10 +296,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 4.0
       },
       "variance": 0.0,
       "failed": false
@@ -296,7 +314,8 @@
         "physical": 0.0,
         "psychological": 4.0,
         "temporal": 0.0,
-        "logical": 2.0
+        "logical": 2.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -307,10 +326,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 3.0,
-        "logical": 2.0
+        "temporal": 0.0,
+        "logical": 1.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -321,10 +341,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 3.0,
-        "logical": 2.0
+        "temporal": 0.0,
+        "logical": 1.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -336,9 +357,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 4.0,
-        "temporal": 3.0,
-        "logical": 2.0
+        "psychological": 3.0,
+        "temporal": 2.0,
+        "logical": 1.0,
+        "valence": 3.0
       },
       "variance": 0.0,
       "failed": false
@@ -350,9 +372,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 4.0,
-        "temporal": 3.0,
-        "logical": 2.0
+        "psychological": 3.0,
+        "temporal": 1.0,
+        "logical": 0.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -363,12 +386,13 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 2.0,
-        "logical": 0.3333
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 0.0
       },
-      "variance": 0.2222,
+      "variance": 0.0,
       "failed": false
     },
     {
@@ -377,12 +401,13 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 0.3333,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 1.6667,
-        "logical": 2.0
+        "temporal": 0.0,
+        "logical": 1.0,
+        "valence": 3.0
       },
-      "variance": 0.8889,
+      "variance": 0.0,
       "failed": false
     },
     {
@@ -392,9 +417,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 4.0,
-        "temporal": 1.0,
-        "logical": 3.0
+        "psychological": 3.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -406,9 +432,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 4.0,
-        "temporal": 1.0,
-        "logical": 2.0
+        "psychological": 3.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -422,7 +449,8 @@
         "physical": 0.0,
         "psychological": 4.0,
         "temporal": 0.0,
-        "logical": 2.0
+        "logical": 1.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -433,10 +461,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -447,10 +476,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 2.0,
-        "logical": 1.0
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 4.0
       },
       "variance": 0.0,
       "failed": false
@@ -461,10 +491,11 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 2.0,
-        "psychological": 4.0,
-        "temporal": 1.0,
-        "logical": 1.0
+        "physical": 1.0,
+        "psychological": 3.0,
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 0.0
       },
       "variance": 0.0,
       "failed": false
@@ -475,12 +506,13 @@
       "predicted": "psychological",
       "correct": true,
       "levels": {
-        "physical": 1.0,
+        "physical": 0.0,
         "psychological": 4.0,
-        "temporal": 2.6667,
-        "logical": 1.6667
+        "temporal": 0.0,
+        "logical": 0.0,
+        "valence": 4.0
       },
-      "variance": 0.2222,
+      "variance": 0.0,
       "failed": false
     },
     {
@@ -492,7 +524,8 @@
         "physical": 0.0,
         "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -503,10 +536,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 3.0,
+        "physical": 0.0,
+        "psychological": 1.0,
         "temporal": 4.0,
-        "logical": 2.0
+        "logical": 0.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -514,13 +548,14 @@
     {
       "word": "しばしば",
       "expected": "temporal",
-      "predicted": "psychological",
-      "correct": false,
+      "predicted": "temporal",
+      "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 3.0,
-        "temporal": 2.0,
-        "logical": 0.0
+        "physical": 0.0,
+        "psychological": 0.0,
+        "temporal": 4.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -531,10 +566,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 0.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 3.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -545,10 +581,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 0.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 3.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -559,10 +596,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
-        "temporal": 4.0,
-        "logical": 3.0
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 3.0,
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -574,9 +612,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 1.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -587,10 +626,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 0.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 3.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -601,10 +641,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 3.0,
+        "physical": 0.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -615,10 +656,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 3.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 3.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -629,10 +671,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 3.0,
-        "psychological": 1.0,
+        "physical": 2.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 2.0
+        "logical": 1.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -640,13 +683,14 @@
     {
       "word": "成長",
       "expected": "temporal",
-      "predicted": "temporal",
-      "correct": true,
+      "predicted": "psychological",
+      "correct": false,
       "levels": {
-        "physical": 2.0,
-        "psychological": 3.0,
-        "temporal": 4.0,
-        "logical": 1.0
+        "physical": 1.0,
+        "psychological": 4.0,
+        "temporal": 3.0,
+        "logical": 0.0,
+        "valence": 4.0
       },
       "variance": 0.0,
       "failed": false
@@ -658,9 +702,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 2.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 1.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -671,10 +716,11 @@
       "predicted": "temporal",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 3.0,
+        "physical": 0.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 0.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -686,9 +732,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 1.0,
+        "psychological": 0.0,
         "temporal": 4.0,
-        "logical": 3.0
+        "logical": 0.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -702,7 +749,8 @@
         "physical": 0.0,
         "psychological": 0.0,
         "temporal": 0.0,
-        "logical": 4.0
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -715,8 +763,9 @@
       "levels": {
         "physical": 0.0,
         "psychological": 0.0,
-        "temporal": 1.0,
-        "logical": 4.0
+        "temporal": 0.0,
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -728,9 +777,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 3.0,
-        "temporal": 2.0,
-        "logical": 4.0
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 3.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -742,9 +792,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 3.0
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -755,12 +806,13 @@
       "predicted": "logical",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.3333,
-        "temporal": 2.6667,
-        "logical": 3.0
+        "physical": 0.0,
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 3.0,
+        "valence": 2.0
       },
-      "variance": 0.2222,
+      "variance": 0.0,
       "failed": false
     },
     {
@@ -770,9 +822,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 1.0,
-        "temporal": 3.0,
-        "logical": 4.0
+        "psychological": 0.0,
+        "temporal": 0.0,
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -784,9 +837,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 3.0,
+        "psychological": 1.0,
         "temporal": 0.0,
-        "logical": 4.0
+        "logical": 4.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -797,10 +851,11 @@
       "predicted": "logical",
       "correct": true,
       "levels": {
-        "physical": 2.0,
+        "physical": 0.0,
         "psychological": 1.0,
-        "temporal": 3.0,
-        "logical": 4.0
+        "temporal": 0.0,
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -813,8 +868,9 @@
       "levels": {
         "physical": 0.0,
         "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 3.0
+        "temporal": 0.0,
+        "logical": 3.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -827,8 +883,9 @@
       "levels": {
         "physical": 0.0,
         "psychological": 1.0,
-        "temporal": 3.0,
-        "logical": 4.0
+        "temporal": 0.0,
+        "logical": 3.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -839,10 +896,11 @@
       "predicted": "logical",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 0.0,
+        "psychological": 1.0,
         "temporal": 0.0,
-        "logical": 3.0
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -854,9 +912,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 3.0,
-        "temporal": 1.0,
-        "logical": 4.0
+        "psychological": 2.0,
+        "temporal": 0.0,
+        "logical": 3.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false
@@ -868,9 +927,10 @@
       "correct": true,
       "levels": {
         "physical": 0.0,
-        "psychological": 1.0,
-        "temporal": 2.0,
-        "logical": 4.0
+        "psychological": 0.0,
+        "temporal": 3.0,
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -881,10 +941,11 @@
       "predicted": "logical",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
+        "physical": 0.0,
+        "psychological": 1.0,
         "temporal": 3.0,
-        "logical": 4.0
+        "logical": 4.0,
+        "valence": 2.0
       },
       "variance": 0.0,
       "failed": false
@@ -895,10 +956,11 @@
       "predicted": "logical",
       "correct": true,
       "levels": {
-        "physical": 1.0,
-        "psychological": 2.0,
-        "temporal": 3.0,
-        "logical": 4.0
+        "physical": 0.0,
+        "psychological": 1.0,
+        "temporal": 0.0,
+        "logical": 4.0,
+        "valence": 1.0
       },
       "variance": 0.0,
       "failed": false

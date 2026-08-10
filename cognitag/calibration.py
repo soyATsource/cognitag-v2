@@ -161,11 +161,15 @@ class CalibrationRunner:
             print(f"  {key:15s} {data['correct']:2d}/{data['n']:2d} "
                   f"({data['rate'] * 100:5.1f}%) {bar}")
 
+        # 混同行列は4軸だけで作る（_summarize と揃えること）。
+        # valence は強度ではなく極性の双極スケールなので、最大軸の
+        # 予測先にはなりえない。ここで FACET_KEYS を使うと
+        # 存在しない valence 列を引いて KeyError になる。
         print("\n--- 混同行列（行=期待, 列=予測）---")
-        header = "  " + " " * 16 + "".join(f"{k[:6]:>8s}" for k in FACET_KEYS)
+        header = "  " + " " * 16 + "".join(f"{k[:6]:>8s}" for k in CORE_KEYS)
         print(header)
         for expected, row in summary["confusion_matrix"].items():
-            cells = "".join(f"{row[p]:>8d}" for p in FACET_KEYS)
+            cells = "".join(f"{row[p]:>8d}" for p in CORE_KEYS)
             print(f"  {expected:15s}{cells}")
 
         print("\n--- 全アンカー語での軸平均（一律膨張の検出）---")
