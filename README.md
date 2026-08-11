@@ -58,7 +58,7 @@ Ollama 0.32.5 / gemma3:4b / GeForce GTX 1070 Ti (VRAM 8GB)
 ## インストール
 
 ```bash
-git clone https://github.com/[ユーザー名]/cognitag-v2.git
+git clone https://github.com/soyATsource/cognitag-v2.git
 cd cognitag-v2
 pip install -r requirements.txt
 ```
@@ -138,7 +138,7 @@ pytest
 4. 各語に 0〜4 の5段階で5軸の値を付けさせる。**4回聞いて1回目は捨てる**
 5. 残り3回の分散が小さい語だけを採用する
 
-4 の「1回目を捨てる」については、こちらに書きました。[記事へのリンク]
+4 の「1回目を捨てる」については、こちらに書きました。https://zenn.dev/soyatsource/articles/7e948b5905200b
 
 ## ライセンス
 
